@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./estacionamientos/est8"
+	"Go-Extractor/estacionamientos/est8"
 	"bufio"
 	"database/sql"
 	"fmt"
@@ -31,11 +31,11 @@ func main() {
 	//hostinger
 	dbDestino := "XXXXXXX:XXXXX@tcp(XXXXXXX:3306)/XXXXXXX"
 
-	fmt.Printf("Ingresa fecha de inicio:\n")
-	fmt.Scanf("%s", &inicio)
+	//fmt.Printf("Ingresa fecha de inicio:\n")
+	//fmt.Scanf("%s", &inicio)
 	//time.Sleep(time.Second * 3)
-	fmt.Printf("Ingresa fecha final:\n")
-	fmt.Scanf("%s", &final)
+	//fmt.Printf("Ingresa fecha final:\n")
+	//fmt.Scanf("%s", &final)
 	//time.Sleep(time.Second * 3)*/
 
 	//inicio := "2020/03/03"
